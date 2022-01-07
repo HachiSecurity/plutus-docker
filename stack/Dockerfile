@@ -1,4 +1,4 @@
-FROM haskell:8.10.4
+FROM haskell:8.10.7
 ARG resolver=lts-17.14.plutus.yaml
 RUN apt-get update && \
     apt-get install -y libsodium-dev
